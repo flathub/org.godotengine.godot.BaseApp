@@ -55,8 +55,8 @@ modules:
 
     sources:
       - type: archive
-        sha256: e70b3cac0874b3e4f37b5f38d0405820509f8216af669e11d57537f8ac60b545
-        url: https://downloads.tuxfamily.org/godotengine/3.1/godot-3.1-stable.tar.xz
+        sha256: fb85065c4430b8f43fa057f5348dacbb3975e2018cd722f97039293f1428d009
+        url: https://downloads.tuxfamily.org/godotengine/3.1.2/godot-3.1.2-stable.tar.xz
 
       - type: patch
         path: godot-i386-disable-O3.patch
