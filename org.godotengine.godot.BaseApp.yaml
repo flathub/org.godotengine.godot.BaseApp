@@ -1,7 +1,7 @@
 app-id: org.godotengine.godot.BaseApp
 branch: '3.3'
 runtime: org.freedesktop.Platform
-runtime-version: '20.08'
+runtime-version: '21.08'
 sdk: org.freedesktop.Sdk
 command: godot-runner
 
