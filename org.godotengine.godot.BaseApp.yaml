@@ -1,7 +1,7 @@
 app-id: org.godotengine.godot.BaseApp
 branch: '3.5'
 runtime: org.freedesktop.Platform
-runtime-version: '21.08'
+runtime-version: '22.08'
 sdk: org.freedesktop.Sdk
 command: godot-runner
 
@@ -48,7 +48,7 @@ modules:
         url: https://downloads.sourceforge.net/project/scons/scons/4.4.0/SCons-4.4.0.tar.gz
 
     build-commands:
-      - python3 setup.py install --prefix=/app
+      - python3 -m pip install --prefix=/app .
 
   - name: godot-runner
     buildsystem: simple
