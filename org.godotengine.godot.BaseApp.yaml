@@ -1,7 +1,7 @@
 app-id: org.godotengine.godot.BaseApp
-branch: '3.2.1'
+branch: '3.2-23.08'
 runtime: org.freedesktop.Platform
-runtime-version: '19.08'
+runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
 command: godot-runner
 
@@ -48,20 +48,17 @@ modules:
         url: https://downloads.sourceforge.net/project/scons/scons/3.1.2/scons-3.1.2.tar.gz
 
     build-commands:
-      - python3 setup.py install --prefix=/app
+      - python3 -m pip install --prefix=/app .
 
   - name: godot-runner
     buildsystem: simple
 
     sources:
       - type: archive
-        sha256: 556b564079fb1b21a05320c359268b2032c87d8b3bfaa4fd104ebf9c909ab87d
-        url: https://downloads.tuxfamily.org/godotengine/3.2.1/godot-3.2.1-stable.tar.xz
-
+        sha256: 85fd73d742cc64887056a232f8f7a622112e78b51f31d4d08db0f982e5f3a023
+        url: https://downloads.tuxfamily.org/godotengine/3.2.3/godot-3.2.3-stable.tar.xz
       - type: patch
-        path: godot-i386-disable-O3.patch
-        only-arches: [i386]
-
+        path: godot-build.patch
     build-commands:
       - python3 /app/bin/scons $SCONS_FLAGS $SCONS_FLAGS_EXTRA tools=no target=release -j "$FLATPAK_BUILDER_N_JOBS"
       - install -Dm755 bin/godot.x11.opt.* /app/bin/godot-runner
