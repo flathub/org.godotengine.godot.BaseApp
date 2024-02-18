@@ -1,0 +1,12 @@
+diff --git a/thirdparty/vhacd/inc/vhacdICHull.h b/thirdparty/vhacd/inc/vhacdICHull.h
+index 132bdcf..fa9c6df 100644
+--- a/thirdparty/vhacd/inc/vhacdICHull.h
++++ b/thirdparty/vhacd/inc/vhacdICHull.h
+@@ -15,6 +15,7 @@
+ #pragma once
+ #ifndef VHACD_ICHULL_H
+ #define VHACD_ICHULL_H
++#include <cstdint>
+ #include "vhacdManifoldMesh.h"
+ #include "vhacdVector.h"
+ 
