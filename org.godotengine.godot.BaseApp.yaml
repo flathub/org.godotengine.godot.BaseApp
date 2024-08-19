@@ -1,5 +1,5 @@
 app-id: org.godotengine.godot.BaseApp
-branch: '4.2'
+branch: '4.3'
 runtime: org.freedesktop.Platform
 runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
@@ -58,8 +58,8 @@ modules:
 
     sources:
       - type: archive
-        sha256: da14e36448f1efd2955fe85d7ededc9e6ac8c893f76723b4852e7587306c761d
-        url: https://downloads.tuxfamily.org/godotengine/4.2.2/godot-4.2.2-stable.tar.xz
+        sha256: 751e55bfad8e04b846f9cf7b6eb80e058986a2cb1b103fc0fe6a4d8526a20e56
+        url: https://downloads.tuxfamily.org/godotengine/4.3/godot-4.3-stable.tar.xz
 
     build-commands:
       - python3 /app/bin/scons $SCONS_FLAGS $SCONS_FLAGS_EXTRA tools=no target=template_release -j "$FLATPAK_BUILDER_N_JOBS"
