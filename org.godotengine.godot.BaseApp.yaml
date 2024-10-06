@@ -44,11 +44,11 @@ modules:
 
     sources:
       - type: archive
-        sha256: 3d43b2303a924816ea0e1b345ff04c9b3e27b53eadf0f26012fc0c29b019685f
-        url: https://downloads.sourceforge.net/project/scons/scons/4.4.0/SCons-4.4.0.tar.gz
+        sha256: 6e928fc97984e719814270f6863f2183b3b72180b0162a5ed09db68c9994100c
+        url: https://downloads.sourceforge.net/project/scons/scons/4.8.0/SCons-4.8.0.tar.gz
 
     build-commands:
-      - python3 -m pip install --prefix=/app .
+      - pip3 install --no-index --no-build-isolation --prefix=/app .
 
   - name: godot-runner
     buildsystem: simple
