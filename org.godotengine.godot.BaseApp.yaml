@@ -39,8 +39,6 @@ build-options:
       udev=no
 
 modules:
-  - shared-modules/glu/glu-9.json
-
   - name: scons
     buildsystem: simple
     cleanup: ['*']
