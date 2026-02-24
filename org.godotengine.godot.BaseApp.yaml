@@ -1,7 +1,7 @@
 app-id: org.godotengine.godot.BaseApp
-branch: '3.5-24.08'
+branch: '3.5-25.08'
 runtime: org.freedesktop.Platform
-runtime-version: '24.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 command: godot-runner
 
@@ -56,7 +56,7 @@ modules:
     sources:
       - type: archive
         sha256: 3cb48126b76858f40cf54bd345bb84dc1f49d9e6f8a4a7425ad86e805d39701d
-        url: https://downloads.tuxfamily.org/godotengine/3.5.3/godot-3.5.3-stable.tar.xz
+        url: https://github.com/godotengine/godot/releases/download/3.5.3-stable/godot-3.5.3-stable.tar.xz
 
     build-commands:
       - python3 /app/bin/scons $SCONS_FLAGS $SCONS_FLAGS_EXTRA tools=no target=release -j "$FLATPAK_BUILDER_N_JOBS"
