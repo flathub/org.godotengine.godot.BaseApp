@@ -24,6 +24,7 @@ build-options:
       CCFLAGS=-I/app/include
       prefix=/app
       unix_global_settings_path=/app
+      disable_path_overrides=no
       progress=no
       builtin_freetype=no
       builtin_libogg=no
