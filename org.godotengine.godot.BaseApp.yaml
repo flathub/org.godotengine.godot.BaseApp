@@ -55,8 +55,8 @@ modules:
 
     sources:
       - type: archive
-        sha256: 5bed20a7056d4cc3cca34001752109809ad7ae200548e98c7bbc6afbad18eda7
-        url: https://downloads.tuxfamily.org/godotengine/3.6/godot-3.6-stable.tar.xz
+        url: https://github.com/godotengine/godot/releases/download/3.6.2-stable/godot-3.6.2-stable.tar.xz
+        sha256: 89feee60520a768920dd2c2e863cb42d735e5a9b039f9a292240f480c1fee867
 
       - type: patch
         path: godot-i386-disable-O3.patch
