@@ -1,0 +1,24 @@
+From 03af5dabda1f4f58f2e6af2ab93f363114ff4791 Mon Sep 17 00:00:00 2001
+From: Sabri Ünal <yakushabb@gmail.com>
+Date: Wed, 3 Jun 2026 19:33:48 +0300
+Subject: [PATCH] Add missing header file
+
+---
+ thirdparty/glslang/SPIRV/SpvBuilder.h | 5 +++--
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/thirdparty/glslang/SPIRV/SpvBuilder.h b/thirdparty/glslang/SPIRV/SpvBuilder.h
+index a65a98e..0a740c8 100644
+--- a/thirdparty/glslang/SPIRV/SpvBuilder.h
++++ b/thirdparty/glslang/SPIRV/SpvBuilder.h
+@@ -61,6 +61,7 @@ namespace spv {
+ #include <set>
+ #include <sstream>
+ #include <stack>
++#include <cstdint>
+ #include <unordered_map>
+ #include <map>
+ 
+--
+libgit2 1.7.2
+
