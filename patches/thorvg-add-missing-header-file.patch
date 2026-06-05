@@ -1,0 +1,25 @@
+From ca707d61305651a9c61fb2f7db5bfc18cea2f76e Mon Sep 17 00:00:00 2001
+From: Sabri Ünal <yakushabb@gmail.com>
+Date: Wed, 3 Jun 2026 19:43:00 +0300
+Subject: [PATCH] Add missing header file
+
+Signed-off-by: Sabri Ünal <yakushabb@gmail.com>
+---
+ thirdparty/thorvg/src/renderer/tvgCommon.h | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/thirdparty/thorvg/src/renderer/tvgCommon.h b/thirdparty/thorvg/src/renderer/tvgCommon.h
+index 15a2cc4..a3b4617 100644
+--- a/thirdparty/thorvg/src/renderer/tvgCommon.h
++++ b/thirdparty/thorvg/src/renderer/tvgCommon.h
+@@ -23,6 +23,7 @@
+ #ifndef _TVG_COMMON_H_
+ #define _TVG_COMMON_H_
+ 
++#include <cstdint>
+ #include "config.h"
+ #include "thorvg.h"
+ 
+--
+libgit2 1.7.2
+
