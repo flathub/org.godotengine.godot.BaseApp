@@ -1,5 +1,5 @@
 app-id: org.godotengine.godot.BaseApp
-branch: '4.6'
+branch: '4.7'
 runtime: org.freedesktop.Platform
 runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
