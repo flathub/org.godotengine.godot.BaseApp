@@ -25,3 +25,35 @@ aarch64 at the time of writing.
 ## Limitations
 
 - No C#/Mono support ([flathub/org.godotengine.Godot#8](https://github.com/flathub/org.godotengine.Godot/issues/8)).
+
+## Branch Comparison
+
+https://docs.godotengine.org/en/latest/about/release_policy.html#release-support-timeline
+
+
+| Branch     | Maintained | EOL Time |
+|------------|------------|----------|
+| 4.7        | **Yes**    | 2027-08* |
+| 4.6        | **Yes**    | 2027-08* |
+| 4.5        | **Yes**    | 2027-08* |
+| 4.4-25.08  | **Yes**    | 2027-08* |
+| 4.4        | No         | EOL      |
+| 4.3-25.08  | **Yes**    | 2027-08* |
+| 4.3-24.08  | No         | EOL      |
+| 4.3        | No         | EOL      |
+| 4.2.*      | No         | EOL      |
+| 4.2        | No         | EOL      |
+| 3.6-26.08  | **Yes**    | 2028-08* |
+| 3.6-25.08  | **Yes**    | 2027-08* |
+| 3.6        | No         | EOL      |
+| 3.5.*      | No         | EOL      |
+| 3.5        | No         | EOL      |
+| 3.4.*      | No         | EOL      |
+| 3.4        | No         | EOL      |
+| 3.3.*      | No         | EOL      |
+| 3.3        | No         | EOL      |
+| 3.2.*      | No         | EOL      |
+| 3.2        | No         | EOL      |
+| 3.1.*      | No         | EOL      |
+| 3.1        | No         | EOL      |
+
