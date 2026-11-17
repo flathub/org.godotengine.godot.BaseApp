@@ -1,7 +1,7 @@
 app-id: org.godotengine.godot.BaseApp
 branch: '4.5'
 runtime: org.freedesktop.Platform
-runtime-version: '25.08'
+runtime-version: '26.08'
 sdk: org.freedesktop.Sdk
 command: godot-runner
 
@@ -60,8 +60,8 @@ modules:
 
     sources:
       - type: archive
-        sha256: 559e11bdd85033640d49db67baa6f15be1128b2af38a5acc06e02b53363d8dde
-        url: https://github.com/godotengine/godot/releases/download/4.5.1-stable/godot-4.5.1-stable.tar.xz
+        sha256: d24d5efec9ad7ca48bb2d80dfcf15f065c02ffd6d98f0e6d00d07ba93d407ec0
+        url: https://github.com/godotengine/godot/releases/download/4.5.2-stable/godot-4.5.2-stable.tar.xz
         x-checker-data:
           type: anitya
           project-id: 373975
