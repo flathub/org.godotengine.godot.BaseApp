@@ -1,4 +1,4 @@
-# WARNING: This is a template!
+# WARNING: This is a draft!
 
 # Godot Engine BaseApp
 
